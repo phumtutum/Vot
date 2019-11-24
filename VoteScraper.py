@@ -16,7 +16,7 @@ headers = {
 
 driver = webdriver.Firefox()
 
-intervalTimp = 280 # poate fi modificat pentru a obtine intervalul de timp la care se cer datele
+intervalTimp = 280 # poate fi modificat pentru a obtine intervalul de timp la care se cer datele(by default sunt ~5 min)
 
 while 0 < 1 :
     driver.get(urlpageDiaspora)
@@ -44,4 +44,4 @@ while 0 < 1 :
             outputRomania.write( str( result.text ) )
             outputRomania.write("\n\n\n\n\n")
 
-    timer.sleep(intervalTimp);
+    time.sleep(intervalTimp);
