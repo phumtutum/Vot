@@ -2,8 +2,8 @@
 
 Librarii necesare:
 
-selenium (pentru webdriver)
-geckodriver (adaugat ca path)
+selenium (pentru webdriver),
+geckodriver (adaugat ca path),
 datetime
 
 
